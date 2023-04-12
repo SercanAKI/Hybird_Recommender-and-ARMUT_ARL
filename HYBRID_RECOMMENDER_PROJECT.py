@@ -1,14 +1,14 @@
 
-#############################################
+###################################
 # PROJE: Hybrid Recommender System
-#############################################
+###################################
 
-# ID'si verilen kullanıcı için item-based ve user-based recomennder yöntemlerini kullanarak tahmin yapınız.
-# 5 öneri user-based modelden 5 öneri de item-based modelden ele alınız ve nihai olarak 10 öneriyi 2 modelden yapınız.
+# ID'si verilen kullanıcı için item-based ve user-based recomennder yöntemlerini kullanarak tahmin yapalım.
+# 5 öneri user-based modelden 5 öneri de item-based modelden ele alınız ve nihai olarak 10 öneriyi 2 modelden yapalım.
 
-#############################################
- #Verinin Hazırlanması
-#############################################
+#######################
+ # Verinin Hazırlanması
+#######################
 import pandas as pd
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 500)
